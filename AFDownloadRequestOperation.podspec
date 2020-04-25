@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name           = 'AFDownloadRequestOperation'
-  s.version        = '2.0.2'
+  s.version        = '2.0.3'
   s.summary        = "A progressive download operation for AFNetworking."
   s.homepage       = "https://github.com/steipete/AFDownloadRequestOperation"
   s.author         = { 'Peter Steinberger' => 'steipete@gmail.com' }
@@ -10,6 +10,6 @@ Pod::Spec.new do |s|
   s.requires_arc   = true
   s.source_files   = '*.{h,m}'
   s.license        = 'MIT'
-  s.dependency 'AFNetworking', '~> 2.0'
+  s.dependency 'AFNetworking/NSURLConnection', '~> 2.0'
 end
 
